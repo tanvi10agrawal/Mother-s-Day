@@ -1,0 +1,40 @@
+h1{
+    color:rgb(255, 248, 248);
+}
+/* *{
+    border: solid;
+} */
+
+.header{
+    background-image: linear-gradient(to right, rgb(255, 70, 255), rgb(162, 62, 230));
+    display:flex;
+    justify-content:space-between;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-image: url("bg.jpg");
+    font-family: papyrus;
+    font-size: xx-large;
+    color: rgb(198, 132, 241);
+}
